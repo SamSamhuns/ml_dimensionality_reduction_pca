@@ -35,7 +35,7 @@ PCA Dimensionality reduction on the `sklearn.fetch_lfw_people` image dataset.
 
 After Dimensionality reduction and decompression.
 
-|             Using 5 PCs            |            IUsing 50 PCs            |
+|    Using 5 Principal Components    |    Using 50 Principal Components    |
 | :--------------------------------: | :---------------------------------: |
 | ![](img/faces_5d_uncompressed.png) | ![](img/faces_50d_uncompressed.png) |
 
