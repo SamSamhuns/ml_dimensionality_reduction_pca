@@ -7,10 +7,10 @@ $ python -m venv venv
 $ pip install -r requirements.txt
 ```
 
-To start a new Jupyter Notebook kernel:
+To start a new Jupyter Notebook kernel based on the current virtualenv:
 
 ```shell
-$ ipython kernel install --name "local-venv" --user
+$ python -m ipykernel install --user --name ENV_NAME --display-name "ENV_DISPLAY_NAME"
 ```
 
 To list all kernels:
@@ -103,3 +103,4 @@ The covariance matrix data matrix, `X`, can be computed as  `1/N*X^T*X`.
 If `X` is our data matrix comprising of `d` features. Then `X^TX` is a `(d * d)` symmetrix matrix wherein each entry at location **ij** corresponds to the scalar projection of **feature i** with **feature j**.
 
 **Note:** The data matrix `X` must also be centered around the mean.
+
